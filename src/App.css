@@ -1,0 +1,47 @@
+*{
+  padding:0px;
+  margin: 0px;
+
+}
+.headName{
+  text-align: center;
+}
+.allItems{
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.App{
+ display: flex; 
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: center;
+ align-items: center;
+ gap:10px;
+} 
+.imgStyle{
+  width:200px;
+  height:250px;
+  
+  margin-bottom: 10px;
+  padding: 8px;
+  border-radius: 5px;
+  background-color: rgb(59, 30, 3);
+}
+.heading{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.imgBox{
+  width: 280px;
+  height:400px;
+  background-color: rgb(43, 137, 226);
+  padding: 15px 20px;
+  
+}
+.cart{
+  font-size: 15px;
+  width: 250px;
+  padding:8px;
+  background-color: black;
+  color:white;
+  margin-top: 10px;
+}
